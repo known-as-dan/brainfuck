@@ -110,8 +110,3 @@ class Pointer:
 def brainfuck(code, array_size=30000, pointer=None):
     pointer = Pointer(array_size)
     pointer.execute(code)
-
-
-hello_program = "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++."
-
-brainfuck(hello_program)
